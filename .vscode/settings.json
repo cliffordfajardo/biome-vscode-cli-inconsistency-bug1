@@ -1,0 +1,27 @@
+{
+	// https://dev.classmethod.jp/articles/exploring-biome-a-guide-to-installing-and-using-it-in-visual-studio-code/
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	}
+	// NOTE: UNCOMMENT THE LINES BELOW
+	// --------------------------------
+
+	// "[javascript]": {
+	// 	"editor.defaultFormatter": "biomejs.biome"
+	// },
+	// "[typescript]": {
+	// 	"editor.defaultFormatter": "biomejs.biome"
+	// },
+	// "[typescriptreact]": {
+	// 	"editor.defaultFormatter": "biomejs.biome"
+	// },
+	// "[json]": {
+	// 	"editor.defaultFormatter": "biomejs.biome"
+	// },
+	// "[jsonc]": {
+	// 	"editor.defaultFormatter": "biomejs.biome"
+	// }
+}
